@@ -8,7 +8,7 @@ Demo
 
 ## Struct of Fatty-Tok
 
-- About TabShaker
+- About Fatty-Tok
 - Grid Layout
   - Event Flow(#event-flow)
   - Different Layout in different screen sizes
