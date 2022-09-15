@@ -2,61 +2,74 @@
 
 A Funny Repo using **TypeScript & React(Next.js)** , css framework **Tailwindcss** , deploy by **Vercel**.
 
-<a href="https://fatty-tok.vercel.app/">
-Demo
-</a>
+網站連結：[Fatty-Tok](https://fatty-tok.vercel.app/)
 
-## Struct of Fatty-Tok
+### 目錄
 
-- components
-  - Comments
-  - Discover
-  - Footer
-  - LikeButton
-  - Navbar
-  - NoResults
-  - Sidebar
-  - SuggestedAccounts
-  - VideoCard
-  - index.js
-- fatty-tok-backend **_sanity 後端_**
-  - schemas
-    - comment.js
-    - post.js
-    - postedBy.js
-    - user.js
-    - scheam.js
-- pages
-  - api
-    - discover
-      - [topic].ts
-    - post
-      - [id].ts
-      - index.ts
-    - profile
-      - [userId].ts
-    - search
-      - [searchTerm].ts
-    - auth.ts
-    - like.ts
-    - users.ts
-  - detail
-    - [id].tsx
-  - profile
-    - [userId].tsx
-  - search
-    - [searchTerm].tsx
-  - \_app.tsx
-  - upload.tsx
-  - index.tsx
-- public
-- store **_zustand-state-management_**
-- styles
-- utils
-- types.d.ts
-- next.config.js
+- [專案簡介](#專案簡介)
+- [目錄結構說明](#目錄結構說明)
+- [如何執行](#如何執行)
 
-## 🚀 Project Quick Start
+## 專案簡介
+
+```
+日常發想，剛好適逢instagram發起抵制TikTok化的網路運動，就試做一個clone版本
+```
+
+## 目錄結構說明
+
+├── components
+│ ├── Comments
+│ ├── Discover
+│ ├── Footer
+│ ├── LikeButton
+│ ├── Navbar
+│ ├── NoResults
+│ ├── Sidebar
+│ ├── SuggestedAccounts
+│ ├── VideoCard
+│ ├── index.js
+
+├── fatty-tok-backend **_sanity 後端_**
+│ ├── schemas
+│ │ ├── comment.js
+│ │ ├── post.js
+│ │ ├── postedBy.js
+│ │ ├── user.js
+│ │ ├── scheam.js
+
+├── pages
+│ ├── api
+│ │ ├──discover
+│ │ │ ├── [topic].ts
+│ │ ├── post
+│ │ │ ├── [id].ts
+│ │ │ ├── index.ts
+│ │ ├── profile
+│ │ │ ├── [userId].ts
+│ │ ├── search
+│ │ │ ├── [searchTerm].ts
+│ │ ├── auth.ts
+│ │ ├── like.ts
+│ │ ├── users.ts
+│ ├── detail
+│ │ ├── [id].tsx
+│ ├── profile
+│ │ ├── [userId].tsx
+│ ├── search
+│ │ ├── [searchTerm].tsx
+│ ├── \_app.tsx
+│ ├── upload.tsx
+│ ├── index.tsx
+
+├── public
+├── store **_zustand-state-management_**
+├── styles
+├── utils
+├── types.d.ts
+├── next.config.js
+
+## 🚀 如何執行
 
 ### Dev Server Guide
 
